@@ -9,3 +9,10 @@ app.register(cookie)
 app.register(transactionsRoutes, {
   prefix: 'transactions',
 })
+
+// app.get('/Luiza', async (request, reply) => {
+//   return reply.send({
+//     'By':'Jônatas',
+
+//   })
+// })
