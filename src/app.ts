@@ -16,6 +16,6 @@ app.get('/Luiza', async (request, reply) => {
   )
 })
 
-app.get('/thiago', async (reply) => {
-  return reply.send('Thiago  teste')
+app.get('/thiago', async (request, reply) => {
+  return reply.send('Thiago teste')
 })
